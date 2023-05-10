@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+$bgGrey : #f6f8fd;
+$green : #00dc82;
+$blue : #004085;
+
+body{
+    font-family: 'Poppins', sans-serif;    
+    background : black;
+    font-size: 14px  !important;
+}
+.mobile{
+    min-height: 100vh;
+    background: $bgGrey;
+}
+.banner-top{
+    height: 15vh;
+    background: red;
+}
+.card-menu{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;    
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    img{
+        width : 50px;
+        margin-bottom: 0.5rem;
+    }
+    .title{
+        font-size : 15px;
+        color : $blue;
+        font-weight: 500;
+    }
+}
+.top-nav{
+    font-size : 15px;
+    border-bottom: 1px solid #ddd;
+}
+.fs{
+    &-15{
+        font-size: 15px;
+    }
+    &-18{
+        font-size: 18px;
+    }
+}
